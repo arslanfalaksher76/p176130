@@ -1,0 +1,19 @@
+
+//shahzad.khan@nu.edu.pk
+
+interface singleMethod{
+    public void sum(int a,int b);
+}
+
+public class week3_2 {
+    public static void main(String[] args) {
+	//thid is using lamba
+	 
+
+        singleMethod obj=(int x,int y) -> System.out.println("sum= "+(x+y));
+	//now simple
+	//Sytstem.out.println(sum(2,3));
+            
+        obj.sum(2,2);
+    }
+}
