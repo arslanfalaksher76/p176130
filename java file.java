@@ -1,5 +1,5 @@
 
-//shahzad.khan@nu.edu.pk
+
 
 interface singleMethod{
     public void sum(int a,int b);
